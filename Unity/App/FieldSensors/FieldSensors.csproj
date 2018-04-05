@@ -12,7 +12,7 @@
     <AssemblyName>FieldSensors</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <EnableDotNetNativeCompatibleProfile>true</EnableDotNetNativeCompatibleProfile>
@@ -147,7 +147,7 @@
     <SDKReference Include="Microsoft.VCLibs, Version=14.0">
       <Name>Visual C++ 2015 Runtime for Universal Windows Platform Apps</Name>
     </SDKReference>
-    <SDKReference Include="WindowsMobile, Version=10.0.16299.0">
+    <SDKReference Include="WindowsMobile, Version=10.0.15063.0">
       <Name>Windows Mobile Extensions for the UWP</Name>
     </SDKReference>
   </ItemGroup>
@@ -222,12 +222,12 @@
 
   <ItemGroup>
     <ProjectReference Include="D:\Projects\FieldSensors\Unity\App\GeneratedProjects\UWP\Assembly-CSharp\Assembly-CSharp.csproj">
-      <Project>{92c54b20-2157-4040-9f3f-0287ce2cf11b}</Project>
+      <Project>{5168bf73-e3ef-4e0b-8665-5ec72ee89c6b}</Project>
       <Name>Assembly-CSharp</Name>
       <Private>False</Private>
     </ProjectReference>
     <ProjectReference Include="D:\Projects\FieldSensors\Unity\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{3c551c48-e78b-4ff8-ac2a-70d5c69dd45c}</Project>
+      <Project>{bab8213f-287b-4a74-95ab-bb00cf6a97a1}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
       <Private>False</Private>
     </ProjectReference>

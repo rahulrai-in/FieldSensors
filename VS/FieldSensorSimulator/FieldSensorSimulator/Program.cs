@@ -10,9 +10,9 @@ namespace FieldSensorSimulator
 
     internal class Program
     {
-        private const string EhConnectionString = "Endpoint=sb://fieldsensors-eh.servicebus.windows.net/;SharedAccessKeyName=RootManageSharedAccessKey;SharedAccessKey=JkB8cd4mhVqLxNeT+8ZJYTeK7vpiabt9BfKc2l+UNB4=";
+        private const string EhConnectionString = "Endpoint=sb://EVENTHUBNAMESPACE.servicebus.windows.net/;SharedAccessKeyName=Key";
 
-        private const string EhEntityPath = "fieldsensors-hub";
+        private const string EhEntityPath = "EVENT HUB NAME";
 
         private static void Main(string[] args)
         {

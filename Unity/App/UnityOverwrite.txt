@@ -7,9 +7,9 @@
 # Default behavior is to never overwrite files
 FieldSensors.sln: modified
 FieldSensors\App.cs: 4F9E2D0C1C6D4D03028005C2106E80BE
-FieldSensors\FieldSensors.csproj: D8C5468A675814D997768724432959BF
+FieldSensors\FieldSensors.csproj: 7A3C9935FCEAA3C966D9DF4852DF46CC
 FieldSensors\FieldSensors.csproj.user: modified
-FieldSensors\Package.appxmanifest: FC92F0D29FCB216C011BAD7FF01EB51D
+FieldSensors\Package.appxmanifest: 03D40C8F82FFD6E7FD8988336F1B2FCC
 FieldSensors\project.json: 1D02BC64BAC0D041019673A1C4C51737
 FieldSensors\Assets\SplashScreen.scale-200.png: 60618416282ED104FD1473935716045D
 FieldSensors\Assets\Square150x150Logo.scale-200.png: E02834B4A5DFB97FF8E212C1CACBB084

@@ -5,14 +5,14 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{92c54b20-2157-4040-9f3f-0287ce2cf11b}</ProjectGuid>
+    <ProjectGuid>{5168bf73-e3ef-4e0b-8665-5ec72ee89c6b}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>AssemblyCSharpWSA</RootNamespace>
     <AssemblyName>Assembly-CSharp</AssemblyName>
     <DefaultLanguage>en-US</DefaultLanguage>
     <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
-    <TargetPlatformVersion>10.0.16299.0</TargetPlatformVersion>
+    <TargetPlatformVersion>10.0.15063.0</TargetPlatformVersion>
     <TargetPlatformMinVersion>10.0.10240.0</TargetPlatformMinVersion>
     <MinimumVisualStudioVersion>14</MinimumVisualStudioVersion>
     <FileAlignment>512</FileAlignment>
@@ -131,7 +131,7 @@
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="D:\Projects\FieldSensors\Unity\App\GeneratedProjects\UWP\Assembly-CSharp-firstpass\Assembly-CSharp-firstpass.csproj">
-      <Project>{3c551c48-e78b-4ff8-ac2a-70d5c69dd45c}</Project>
+      <Project>{bab8213f-287b-4a74-95ab-bb00cf6a97a1}</Project>
       <Name>Assembly-CSharp-firstpass</Name>
     </ProjectReference>
     <Reference Include="UnityEngine">
@@ -170,10 +170,10 @@
       <HintPath>$(UnityWSASolutionDir)$(UnityWSASolutionName)\Unprocessed\GLTFSerializationUWP.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <SDKReference Include="WindowsDesktop, Version=10.0.16299.0"/>
-    <SDKReference Include="WindowsIoT, Version=10.0.16299.0"/>
-    <SDKReference Include="WindowsMobile, Version=10.0.16299.0"/>
-    <SDKReference Include="WindowsTeam, Version=10.0.16299.0"/>
+    <SDKReference Include="WindowsDesktop, Version=10.0.15063.0"/>
+    <SDKReference Include="WindowsIoT, Version=10.0.15063.0"/>
+    <SDKReference Include="WindowsMobile, Version=10.0.15063.0"/>
+    <SDKReference Include="WindowsTeam, Version=10.0.15063.0"/>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="$(UnityProjectDir)Assets\**\*.cs" Exclude="$(UnityProjectDir)Assets\**\Editor\**\*.cs;$(UnityProjectDir)Assets\Plugins\**\*.cs;$(UnityProjectDir)Assets\Standard Assets\**\*.cs;$(UnityProjectDir)Assets\Standard Assets (Mobile)\**\*.cs;$(UnityProjectDir)Assets\Pro Standard Assets\**\*.cs">

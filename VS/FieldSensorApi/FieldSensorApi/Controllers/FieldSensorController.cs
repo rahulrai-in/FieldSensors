@@ -14,9 +14,9 @@ namespace FieldSensorApi.Controllers
 
     public class FieldSensorController : ApiController
     {
-        private const string EndpointUri = "https://fieldsesnsors-db.documents.azure.com:443/";
+        private const string EndpointUri = "https://COSMOSDBNAME.documents.azure.com:443/";
 
-        private const string PrimaryKey = "Kz9i02TEV3RhhBNIESXyCt77WUoecTTJWjQtLutlNS1Tugfh00upl0Vua4x8IWF90h7oPcXlUt72nedmNc0dng==";
+        private const string PrimaryKey = "COSMOS DB KEY";
         private const string DatabaseName = "sensordata";
         private const string CollectionName = "data";
 
